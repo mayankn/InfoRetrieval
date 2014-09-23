@@ -17,7 +17,9 @@ How to run:
 3. A tool which reads the index and prints information read from it
 
   ./read_index.py --doc < document name to lookup >
+  
   ./read_index.py --term <term to lookup>
+  
   ./read_index.py --term <term to lookup> --doc < document to lookup term in >
 
 4. A program which takes the name of a scoring function as a command line argument 
